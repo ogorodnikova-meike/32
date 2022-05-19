@@ -1,0 +1,13 @@
+/**
+ * Plugin Name: Breadcrumb TMC
+**/
+ol.breadcrumb-tmc {
+  list-style-type: none;
+  display: inline;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0; }
+  ol.breadcrumb-tmc li {
+    display: inline-block; }

@@ -1,0 +1,130 @@
+@charset "UTF-8";
+.shortcode-eob_shortcode_generator .select2 {
+  width: 500px !important;
+  max-width: 100%;
+}
+
+.sp-universalfront.shortcode-eob {
+  display: block;
+}
+
+.eob-pf-wrapper {
+  max-width: 100%;
+  width: 800px;
+  margin: auto;
+}
+.eob-pf-wrapper.is-view-slider .slick-next {
+  right: 0;
+}
+.eob-pf-wrapper.is-view-slider .slick-next:before {
+  color: black;
+  font-family: monospace;
+  content: "›";
+}
+.eob-pf-wrapper.is-view-slider .slick-prev {
+  left: 0;
+}
+.eob-pf-wrapper.is-view-slider .slick-prev:before {
+  color: black;
+  font-family: monospace;
+  content: "‹";
+}
+.eob-pf-wrapper.is-view-slider:hover .slick-arrow {
+  opacity: 0.5;
+}
+.eob-pf-wrapper.is-view-slider .slick-arrow {
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid silver;
+  background: white !important;
+  top: 25%;
+}
+.eob-pf-wrapper.is-view-slider .slick-arrow:hover {
+  opacity: 1;
+  background: white;
+}
+.eob-pf-item .eob-pf-item-thumbnail {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+.eob-pf-item .eob-pf-item-thumbnail::before {
+  display: block;
+  content: "";
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  position: absolute;
+  background: black;
+  transition: 500ms all;
+}
+.eob-pf-item .eob-pf-item-thumbnail:hover::before {
+  opacity: 0.1;
+}
+.eob-pf-item .eob-pf-item-thumbnail::after {
+  display: block;
+  content: "";
+  padding-bottom: 100%;
+}
+.eob-pf-item .eob-pf-item-desc {
+  margin-top: 10px;
+}
+.eob-pf-item .eob-pf-item-desc-title-first {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  font-family: Georgia, Times, Times New Roman, serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+}
+@media screen and (min-width: 988px) {
+  .eob-pf-item .eob-pf-item-desc-title-first {
+    font-size: 80%;
+  }
+}
+.eob-pf-item .eob-pf-item-desc-title-first:hover {
+  text-decoration: underline;
+}
+.eob-pf-item .eob-pf-item-desc-title-second {
+  display: block;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #777;
+  text-decoration: none;
+  text-align: center;
+}
+.eob-pf-item .eob-pf-item-desc-title-second:hover {
+  text-decoration: underline;
+}
+.eob-pf-item .eob-pf-item-desc-price {
+  text-align: center;
+}
+.eob-pf-item .eob-pf-item-desc-price .eob-pf-item-desc-price-text {
+  display: inline-block;
+  font-family: Georgia, Times, Times New Roman, serif;
+  font-size: 18px;
+  color: #000;
+}
+.eob-pf-item .eob-pf-item-desc-price .eob-pf-item-desc-price-text.is-old {
+  display: inline-block;
+  margin-right: 10px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  color: #777;
+  text-decoration: line-through;
+}
+.eob-pf-item .eob-pf-item-desc-price .eob-pf-item-desc-price-text.is-better {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
